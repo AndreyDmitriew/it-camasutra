@@ -4,7 +4,7 @@ const Profile = () => {
     return (
         <div className="content">
             <div>
-                <img height={'100px'} src={'https://ichef.bbci.co.uk/news/800/cpsprodpb/4AC5/production/_111914191_b5eff905-0549-4c4f-84e1-1bc01721ae50.jpg'}/>
+                <img height={'200px'} src={'https://ichef.bbci.co.uk/news/800/cpsprodpb/4AC5/production/_111914191_b5eff905-0549-4c4f-84e1-1bc01721ae50.jpg'}/>
                 + description
             </div>
             <div>
