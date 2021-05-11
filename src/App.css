@@ -1,24 +1,34 @@
 .app-wrapper {
+    margin: 0 auto;
     display: grid;
+    width: 1200px;
+    grid-template-areas: "h h" "n c";
+
     grid-template-rows: 60px 1fr;
     grid-template-columns: 2fr 10fr;
-    grid-template-areas:
-    'header header'
-    'navBar content';
-
+    /* grid-gap: 10px; */
 }
 
-.header {
-    grid-area: header;
-    background-color: lightgrey;
+.app-wrapper-content {
+    grid-area: c;
+    background-color: cornflowerblue;
 }
 
-.navBar {
-    grid-area: navBar;
-}
 
-.content {
-    grid-area: content;
-    background-color: aliceblue;
 
-}
+
+
+
+
+
+
+
+/*
+
+/messages
+/dialogs
+
+/dialogs/3
+/dialogs/2
+
+*/
